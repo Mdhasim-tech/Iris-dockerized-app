@@ -1,0 +1,80 @@
+/* Page background */
+*{
+  margin: 0;
+  padding: 0;
+}
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+/* Card container */
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 360px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Headings */
+.title {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #667eea;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #667eea;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Result */
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background: #e6fffa;
+  border-radius: 6px;
+  color: #065f46;
+}
+
+/* Error */
+.error {
+  margin-top: 15px;
+  color: red;
+}
