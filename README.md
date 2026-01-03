@@ -84,6 +84,7 @@ services:
     depends_on:
       - backend
     restart: always
+```
     
 4.Open a terminal inside that folder
 
