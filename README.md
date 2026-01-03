@@ -69,6 +69,7 @@ If you **do not want to clone the entire source code**, you can still run the co
 2. Inside that folder, create a file named `docker-compose.yml`  
 3. Paste the following content into it:
 
+```yaml
 services:
   backend:
     image: hasimtech/iris-backend:latest
@@ -83,6 +84,7 @@ services:
     depends_on:
       - backend
     restart: always
+    
 4.Open a terminal inside that folder
 
 5.Run:
