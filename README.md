@@ -72,13 +72,13 @@ If you **do not want to clone the entire source code**, you can still run the co
 ```yaml
 services:
   backend:
-    image: hasimtech/iris-backend:latest
+    image: mdhasim777/iris-backend:latest
     ports:
       - "5000:5000"
     restart: always
 
   frontend:
-    image: hasimtech/iris-frontend:latest
+    image: mdhasim777/iris-frontend:latest
     ports:
       - "3000:3000"
     depends_on:
